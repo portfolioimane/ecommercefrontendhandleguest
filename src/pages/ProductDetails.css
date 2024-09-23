@@ -1,0 +1,23 @@
+/* src/components/ProductDetails.css */
+
+.product-image {
+    height: 400px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+}
+
+.product-details-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1.25rem;
+    color: #28a745;
+}

@@ -1,0 +1,21 @@
+.product-card {
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.slick-slide img {
+    border-radius: 8px;
+}
+
+.slick-dots li button:before {
+    color: #007bff; /* Change dot color */
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #007bff; /* Change arrow color */
+}
+
